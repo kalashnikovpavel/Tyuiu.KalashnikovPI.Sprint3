@@ -29,10 +29,10 @@ namespace Tyuiu.KalashnikovPI.Sprint3.Task5.V29
             int stopValue2 = 10;
 
             Console.WriteLine("Переменная Х = " + x);
-            Console.WriteLine("статрт шага первой суммы" + startValue1);
-            Console.WriteLine("конец шага первой суммы" + stopValue1);
-            Console.WriteLine("страт шага второй суммы" + startValue1);
-            Console.WriteLine("конец шага второй суммы" + stopValue1);
+            Console.WriteLine("статрт шага первой суммы = " + startValue1);
+            Console.WriteLine("конец шага первой суммы = " + stopValue1);
+            Console.WriteLine("страт шага второй суммы = " + startValue1);
+            Console.WriteLine("конец шага второй суммы = " + stopValue1);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");

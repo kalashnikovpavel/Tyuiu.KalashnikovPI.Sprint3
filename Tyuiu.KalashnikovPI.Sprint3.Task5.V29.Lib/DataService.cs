@@ -11,7 +11,7 @@ namespace Tyuiu.KalashnikovPI.Sprint3.Task5.V29.Lib
             {
                 for(j = startValue2; j <= stopValue2; j++)
                 {
-                    s += ((x / startValue2) + Math.Sin(x));
+                    s = s + (x / startValue2) + Math.Sin(x);
                 }
             }
             return Math.Round(s, 3);
