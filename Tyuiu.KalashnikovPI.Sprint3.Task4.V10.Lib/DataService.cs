@@ -18,7 +18,7 @@ namespace Tyuiu.KalashnikovPI.Sprint3.Task4.V10.Lib
                     res *= (Math.Sin(x) - x) / x;
                 }
             }
-            return res;
+            return Math.Round(res, 3);
         }
     }
 }
