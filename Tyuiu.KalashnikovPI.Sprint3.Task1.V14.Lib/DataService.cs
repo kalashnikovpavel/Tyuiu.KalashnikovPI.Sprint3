@@ -11,7 +11,7 @@ namespace Tyuiu.KalashnikovPI.Sprint3.Task1.V14.Lib
                 s = s + (Math.Pow(value, startValue) + (1 / (startValue + 1.0))) * Math.Cos(value);
                 startValue++;
             }
-            return s;
+            return Math.Round(s, 3);
              
         }
     }
