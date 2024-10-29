@@ -10,7 +10,7 @@ namespace Tyuiu.KalashnikovPI.Sprint3.Task0.V28.Lib
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                s *= ((Math.Pow(value, 3) + startValue) + 2);
+                s *= ((Math.Pow(value, 3) * i) + 2);
             }
             return s;
         }
