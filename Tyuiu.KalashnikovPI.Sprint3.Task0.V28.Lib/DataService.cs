@@ -12,7 +12,7 @@ namespace Tyuiu.KalashnikovPI.Sprint3.Task0.V28.Lib
             {
                 s *= ((Math.Pow(value, 3) * i) + 2);
             }
-            return s;
+            return Math.Round(s, 3);
         }
     }
 }
