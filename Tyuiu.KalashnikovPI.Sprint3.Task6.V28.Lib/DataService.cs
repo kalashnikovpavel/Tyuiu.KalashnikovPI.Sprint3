@@ -9,11 +9,11 @@ namespace Tyuiu.KalashnikovPI.Sprint3.Task6.V28.Lib
             int s = 0;
             for (x = startValue; x <= stopValue; x++)
             {
-                for (int d = 1; d <= x; d++)
+                for (int d = 1; d < 7; d++)
                 {
-                    if ((x % d == 0) & (d <= 7))
+                    if (x % d == 0)
                     {
-                        s += d;
+                        s++;
                     }
                 }
             }
